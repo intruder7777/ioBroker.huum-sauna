@@ -144,6 +144,7 @@ class HuumSauna extends utils.Adapter {
 		// Only status 231 or status 232 a sauna is defined with values
 
 		if (this.huum.statusCode === 231) {
+			this.setState("status-huum.doorStatus", this.huum.door, true);
 			this.setState("targetTemperature", parseInt(this.huum.targetTemperature), true);
 			this.setState("heatingPeriod.duration", parseInt(this.huum.duration), true);
 			this.setState("heatingPeriod.startDate", parseInt(this.huum.startDate), true);
