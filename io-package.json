@@ -1,8 +1,12 @@
 {
   "common": {
     "name": "huum-sauna",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "news": {
+      "0.5.1": {
+        "en": "updated doorstatus",
+        "de": "aktualisierte Tür Status"
+      },
       "0.5.0": {
         "en": "updated dependencies\njs-controller\ncore",
         "de": "aktualisierte abhängigkeiten\njs-controller\nkern",
