@@ -22,7 +22,9 @@ The specification of HUUM Devive for the sauna control can be found [here](https
 ![grafik](https://user-images.githubusercontent.com/56934142/150417838-425261da-a6c7-47b3-bf1b-2af6035ffd59.png)
 
 ## Changelog
-
+### 0.5.1 (2026-10-04)
+- update doorstatus
+  
 ### 0.5.0 (2025-02-23)
 - updated dependencies
 - js-controller
